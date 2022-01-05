@@ -1,133 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shorycut icon" href="https://scontent-gru2-1.xx.fbcdn.net/v/t1.6435-9/187923746_1466823380463249_6237636080173134514_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ZY9B9B8MkKAAX_-NF00&_nc_ht=scontent-gru2-1.xx&oh=797383b6a49d78b85e621051b67a1318&oe=60CC03C3">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="shorycut icon"
+        href="https://scontent-gru2-1.xx.fbcdn.net/v/t1.6435-9/187923746_1466823380463249_6237636080173134514_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ZY9B9B8MkKAAX_-NF00&_nc_ht=scontent-gru2-1.xx&oh=797383b6a49d78b85e621051b67a1318&oe=60CC03C3">
 
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
 
-        <title>ECO FARM</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <br>
-                    <img src="Logo.png" alt="img-topo" width=70 height=30 >
-                </div>
+    <title>ECO FARM</title>
+</head>
 
-                <input type="Pesquisa" class="Pesquisa">
-
+<body onload="inicializaJS()">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
                 <br>
-                <img src="Carrinho.png" alt="img-topo" width="50" height="40" >
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <br>
-                <br>
-                <br>
-                <img src="Carrosel.png" alt="" width="1132" height="423">
-                <img src="Metodos.png" alt="">
-
-                <div class="home__data">
-                    <h1 class="home__title">Conheça<br>Nosso <span class="home__title-color">Catalogo</span></h1>
-
-                </div>
-
-
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">Sobre a loja</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="Img/Loja.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">A ECO FARM</h2>
-                        <p class="about__text">Veio como uma solução para o mercado de artigos naturais para a internet, com grandes abições e desejo de sempre dar o melhor para os nossos clientes, acima de tudo em qualquer que seja a ocasião.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== Catalogo =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Produtos</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <a href="Produto.html"><img src="Img/Feijão.png" alt=""></a><h3>FEIJÃO CARRIOCA</h3>
-                    </div>
-                    <div class="work__img">
-                        <a href="Produto.html"><img src="img/oleo-de-coco.jpg" alt=""></a><h3>ÓLEO DE COCO</h3>
-                    </div>
-                    <div class="work__img">
-                        <a href="Produto.html"><img src="Img/desincha-cha.jpg" alt=""></a><h3>DESINCHA CHÁ</h3>
-                    </div>
-                    <div class="work__img">
-                        <a href="Produto.html"><img src="Img/chocolate.jpg" alt=""></a><h3>CHOCOLATE SEM LACTOSE</h3>
-                    </div>
-                    <div class="work__img">
-                        <a href="Produto.html"><img src="Img/mel-organico.png" alt=""></a><h3>MEL ORGANICO</h3>
-                    </div>
-                    <div class="work__img">
-                        <a href="Produto.html"><img src="Img/Manteiga.png" alt=""></a><h3>MANTEIGA DE COCO</h3>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contato</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Nome" class="contact__input">
-                        <input type="mail" placeholder="E-mail" class="contact__input">
-                        <input type="celular" placeholder="Celular" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Confirmar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p>GOSTOU DA LOJA? ENTÂO CADASTRE-SE!  &nbsp &nbsp &nbsp<input type="text" class="Pesquisa"></p>
-            <br>
-            <br><br><br>
-
-            <p class="footer__title">Redes Sociais</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <img src="Logo.png" alt="img-topo" width=70 height=30>
             </div>
-            <p>Telefone: (11) 4002-8922</p>
-            <p>Av. Rio Branco, 1492 – Campos Elíseos – 01206-001 – São Paulo (SP)</p><br>
-            <p>&#169; 2021 copyright todos os direitos reservados<br>ECO FARM</p>
+
+            <input type="Pesquisa" class="Pesquisa">
+
             <br>
-            <p>CNPJ: 31.217.122/0001-40</p>
-        </footer>
+            <img src="Carrinho.png" alt="img-topo" width="50" height="40">
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <br>
+            <br>
+            <br>
+            <div class="slidershow-container">
+
+                <div class="mySlides fade">
+                    <img src="Carrosel.png" alt="" width="1132" height="423" style="object-fit: cover;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="Carrosel 2.png" alt="" width="1132" height="423" style="object-fit: cover;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="Carrosel 3.png" alt="" width="1132" height="423" style="object-fit: cover;">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <img src="Metodos.png" alt="">
+
+            <div class="home__data">
+                <h1 class="home__title">Conheça<br>Nosso <span class="home__title-color">Catalogo</span></h1>
+
+            </div>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        </section>
 
-    </body>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Sobre a loja</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="Img/Loja.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">A ECO FARM</h2>
+                    <p class="about__text">Veio como uma solução para o mercado de artigos naturais para a internet, com
+                        grandes abições e desejo de sempre dar o melhor para os nossos clientes, acima de tudo em
+                        qualquer que seja a ocasião.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== Catalogo =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Produtos</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <a href="Produto.html"><img src="Img/Feijão.png" alt=""></a>
+                    <h3>FEIJÃO CARRIOCA<br>R$ 15,99</h3>
+                </div>
+                <div class="work__img">
+                    <a href="Produto.html"><img src="img/oleo-de-coco.jpg" alt=""></a>
+                    <h3>ÓLEO DE COCO<br>R$ 58,99</h3>
+                </div>
+                <div class="work__img">
+                    <a href="Produto.html"><img src="Img/desincha-cha.jpg" alt=""></a>
+                    <h3>DESINCHA CHÁ<br>R$ 69,99</h3>
+                </div>
+                <div class="work__img">
+                    <a href="Produto.html"><img src="Img/chocolate.jpg" alt=""></a>
+                    <h3>CHOCOLATE SEM LACTOSE<br>R$ 14,99</h3>
+                </div>
+                <div class="work__img">
+                    <a href="Produto.html"><img src="Img/mel-organico.png" alt=""></a>
+                    <h3>MEL ORGANICO<br>R$ 29,99</h3>
+                </div>
+                <div class="work__img">
+                    <a href="Produto.html"><img src="Img/Manteiga.png" alt=""></a>
+                    <h3>MANTEIGA DE COCO<br>R$ 19,99</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contato</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form" name="formulario" onsubmit="return validaDados()">
+                    <input type="text" name="txtnome" placeholder="Nome" id="txtnome" class="contact__input">
+                    <span class="msg-erro msg-nome"></span>
+                    <input type="mail" placeholder="E-mail" id="txtemail" class="contact__input">
+                    <span class="msg-erro msg-email"></span>
+                    <input type="celular" placeholder="Celular" id="txtcelular" class="contact__input">
+                    <span class="msg-erro msg-celular"></span>
+                    <textarea name="" id="txtmensagem" cols="0" rows="10" class="contact__input"></textarea>
+                    <span class="msg-erro msg-mensagem"></span>
+    
+                    <input type="submit" id="btn_cadastro" onclick="validaDados()" value="Confirmar"
+                        class="contact__button button"></a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p>GOSTOU DA LOJA? ENTÂO CADASTRE-SE! &nbsp &nbsp &nbsp<input type="text" class="Pesquisa"></p>
+        <br>
+        <br><br><br>
+
+        <p class="footer__title">Redes Sociais</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <p>Telefone: (11) 4002-8922</p>
+        <p>Av. Rio Branco, 1492 – Campos Elíseos – 01206-001 – São Paulo (SP)</p><br>
+        <p>&#169; 2021 copyright todos os direitos reservados<br>ECO FARM</p>
+        <br>
+        <p>CNPJ: 31.217.122/0001-40</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
 </html>

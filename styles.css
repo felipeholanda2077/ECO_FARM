@@ -1,3 +1,5 @@
+* {box-sizing: border-box; }
+
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
@@ -106,6 +108,77 @@ img{
 }
 
 /*===== LAYOUT =====*/
+
+.slidershow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot-container {
+  text-align: center;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  margin: 0 2px;
+  display: inline-block;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.mySlides {
+  display: none;
+
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color:#fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation: fade;
+  animation-duration: 1.5s;
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+
+@-webkit-keyframes fade {
+  from { opacity: .4;}
+  to { opacity: 1 }
+}
+
+@keyframes fade {
+  from { opacity: .4;}
+  to { opacity: 1;}
+}
+
+
 .bd-grid{
   max-width: 1024px;
   display: grid;
@@ -371,6 +444,9 @@ img{
   margin-left: auto;
 }
 
+.msg-erro {
+  color: red;
+}
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--trie-color);
