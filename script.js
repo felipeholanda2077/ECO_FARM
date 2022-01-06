@@ -75,7 +75,6 @@ function validaDados() {
 
 
   if (nome.value.length<5){
-      //alert("Nome Não informado!");
       caixa_nome.innerHTML = "Favor preencha o nome";
       caixa_nome.style.display = 'block';
       caixa_nome.style = 'border: 2px';
@@ -101,7 +100,6 @@ if (celular.value.length<5){
 }
   
   if (document.getElementById('txtmensagem').value.length==0){
-      //alert("Mensagem Obrigatória");
       caixa_mensagem.innerHTML = "Favor preencha a mensagem";
       caixa_mensagem.style.display = 'block';
       caixa_mensagem.style = 'border: 2px';
@@ -109,6 +107,3 @@ if (celular.value.length<5){
   }
 }
 
-function inicializaJS(){
-    document.getElementById('txtnome').focus();
-}

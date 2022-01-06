@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
 
@@ -21,16 +25,15 @@
 
 <body onload="inicializaJS()">
     <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
+    <header class="l-header container-fluid">
+        <nav class="nav container-fluid bd-grid">
             <div>
-                <br>
-                <img src="Logo.png" alt="img-topo" width=70 height=30>
+                
+                <img src="Logo.png" alt="img-topo" width=60 height=30>
             </div>
 
             <input type="Pesquisa" class="Pesquisa">
 
-            <br>
             <img src="Carrinho.png" alt="img-topo" width="50" height="40">
         </nav>
     </header>
@@ -96,27 +99,27 @@
 
             <div class="work__container bd-grid">
                 <div class="work__img">
-                    <a href="Produto.html"><img src="Img/Feijão.png" alt=""></a>
+                    <a href="Produto.html"><img src="Img/Feijão.png" alt=""></a><br>
                     <h3>FEIJÃO CARRIOCA<br>R$ 15,99</h3>
                 </div>
                 <div class="work__img">
-                    <a href="Produto.html"><img src="img/oleo-de-coco.jpg" alt=""></a>
+                    <a href="Produto.html"><img src="img/oleo-de-coco.jpg" alt=""></a><br>
                     <h3>ÓLEO DE COCO<br>R$ 58,99</h3>
                 </div>
                 <div class="work__img">
-                    <a href="Produto.html"><img src="Img/desincha-cha.jpg" alt=""></a>
+                    <a href="Produto.html"><img src="Img/desincha-cha.jpg" alt=""></a><br>
                     <h3>DESINCHA CHÁ<br>R$ 69,99</h3>
                 </div>
                 <div class="work__img">
-                    <a href="Produto.html"><img src="Img/chocolate.jpg" alt=""></a>
+                    <a href="Produto.html"><img src="Img/chocolate.jpg" alt=""></a><br>
                     <h3>CHOCOLATE SEM LACTOSE<br>R$ 14,99</h3>
                 </div>
                 <div class="work__img">
-                    <a href="Produto.html"><img src="Img/mel-organico.png" alt=""></a>
+                    <a href="Produto.html"><img src="Img/mel-organico.png" alt=""></a><br>
                     <h3>MEL ORGANICO<br>R$ 29,99</h3>
                 </div>
                 <div class="work__img">
-                    <a href="Produto.html"><img src="Img/Manteiga.png" alt=""></a>
+                    <a href="Produto.html"><img src="Img/Manteiga.png" alt=""></a><br>
                     <h3>MANTEIGA DE COCO<br>R$ 19,99</h3>
                 </div>
             </div>
@@ -166,6 +169,14 @@
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type="text/javascript" src="script.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
 
 </body>
 
