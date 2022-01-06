@@ -119,6 +119,18 @@ img{
   text-align: center;
 }
 
+.Carrinho {
+  cursor: pointer;
+}
+
+.Cursor {
+  cursor: default;
+  -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+}
+
 .dot {
   width: 15px;
   height: 15px;
