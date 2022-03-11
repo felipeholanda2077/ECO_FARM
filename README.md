@@ -6,7 +6,7 @@
    </a>
 </p>
 
-# Sobre o Projeto
+### Sobre o Projeto
 
 <h4>Site pessoal feito para poder desenvolver uma aplicação para o curso tecnico do Senac</h4>
 
