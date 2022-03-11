@@ -23,7 +23,7 @@
     <title>ECO FARM</title>
 </head>
 
-<body onload="inicializaJS()">
+<body class="container-fluid" onload="inicializaJS()">
     <!--===== HEADER =====-->
     <header class="l-header container-fluid">
         <nav class="nav container-fluid bd-grid">
@@ -40,21 +40,21 @@
 
     <main class="l-main">
         <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
+        <section class="home bd-grid container-fluid" id="home">
             <br>
             <br>
             <br>
-            <div class="slidershow-container">
+            <div class="slidershow-container container-fluid">
 
-                <div class="mySlides fade">
+                <div class="mySlides fade container-fluid">
                     <img src="Carrosel.png" alt="" width="1132" height="423" style="object-fit: cover;">
                 </div>
 
-                <div class="mySlides fade">
+                <div class="mySlides fade container-fluid">
                     <img src="Carrosel 2.png" alt="" width="1132" height="423" style="object-fit: cover;">
                 </div>
 
-                <div class="mySlides fade">
+                <div class="mySlides fade container-fluid">
                     <img src="Carrosel 3.png" alt="" width="1132" height="423" style="object-fit: cover;">
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094</a>
@@ -65,9 +65,9 @@
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
-            <img src="Metodos.png" class="" alt="">
+            <img src="Metodos.png" class="container-fluid" alt="">
 
-            <div class="home__data">
+            <div class="home__data container-fluid">
                 <h1 class="home__title">Conheça<br>Nosso <span class="home__title-color">Catalogo</span></h1>
 
             </div>
@@ -130,7 +130,7 @@
             <h2 class="section-title Cursor">Contato</h2>
 
             <div class="contact__container bd-grid">
-                <form action="" class="contact__form" name="formulario" onsubmit="return validaDados()">
+                <form action="" class="contact__form" name="formulario" onsubmit="">
                     <input type="text" name="txtnome" placeholder="Nome" id="txtnome" class="contact__input">
                     <span class="msg-erro msg-nome"></span>
                     <input type="mail" placeholder="E-mail" id="txtemail" class="contact__input">
