@@ -8,7 +8,7 @@
 
    <h1 align="center">Sobre o Projeto</h1>
 
-<h4>Site pessoal feito para poder desenvolver uma aplicação para o curso tecnico do Senac</h4>
+<h4 align="center">Site pessoal feito para poder desenvolver uma aplicação para o curso tecnico do Senac</h4>
 
 <br>
 
