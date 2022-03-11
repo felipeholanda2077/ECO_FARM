@@ -170,10 +170,9 @@ img{
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
   animation: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3s;
 }
 
 .active, .dot:hover {
