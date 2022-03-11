@@ -5,7 +5,6 @@
       <img alt="Felipe Holanda" src="https://img.shields.io/badge/-Felipe Holanda-blue?style=flat&logo=Linkedin&logoColor=bluee" /></p>
    </a>
 
-
    <h1 align="center">Sobre o Projeto</h1>
 
 <h4 align="center">Site pessoal feito para poder desenvolver uma aplicação para o curso tecnico do Senac</h4>
