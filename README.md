@@ -1,4 +1,4 @@
-# ECO_FARM
+<h1 align="center">ECO_FARM<h1>
 
 <p align="center">
    <a href="https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/">
