@@ -21,9 +21,9 @@
 
    <h2 align="center">Imagem</h2>
 
-<h1 align="center">
+<h3 align="center">
    <img alt="Readme" title="Readme" src="README.png" />
-</h1>
+</h3>
 
   ### Tecnologias 🚀
 
