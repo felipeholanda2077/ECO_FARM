@@ -12,18 +12,18 @@
 
 <br>
 
-<p aling="center">Esse projeto...</p>
+<p align="center">Índice<br>
 <a href="#sobre">Sobre</a> •
 <a href="#Imagem">Imagem</a> •
 <a href="#Tecnologias">Tecnologias</a> •
-<a href="#Ferramentas">Ferramentas</a>
+   <a href="#Ferramentas">Ferramentas</a></p>
 
 <br>
 <br>
 
-## Imagem
+   <h2 align="center">Imagem</h2>
 
-<h1 aling="center">
+<h1 align="center">
    <img alt="Readme" title="Readme" src="PaginaREADME.png" />
 </h1>
 
@@ -41,7 +41,7 @@
 
 <br>
 
-  Made with 💜 by FELIPE HOLANDA 👋🏻 [See my Linkedin](https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/)
+  <p align="center">Made with 💜 by FELIPE HOLANDA 👋🏻 <br>[See my Linkedin](https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/)</p>
   
 <br>
 
